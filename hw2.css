@@ -87,6 +87,7 @@ h2 {
 body {
     font-family: system-ui, sans-serif;
     color:var(--text);
+    overflow-x: hidden;
 }
 
 img {  
@@ -166,6 +167,12 @@ img {
     background-color: #1947a1;
 }
 
+.latest { /*最新消息*/
+    background-color: #151922;
+    border-top:1px solid rgba(255,255,255,0.1);
+    height: 30vw;
+    width: 100%;
+}
 
 .latest h2 {
     display: block;
