@@ -11,6 +11,10 @@
   --card:#151922;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header, section, footer {
     background-color: #d6ccc2;
     border:0 #9d8189 solid;
@@ -88,6 +92,8 @@ body {
     font-family: system-ui, sans-serif;
     color:var(--text);
     overflow-x: hidden;
+
+    scroll-margin-top: 100px;
 }
 
 img {  
