@@ -119,6 +119,7 @@ img {
 
 .intro h2 {
     font-size: 2vw;
+    margin-bottom: 1.5vw;
 }
 
 .introText {
@@ -126,14 +127,14 @@ img {
     font-weight: bold;
     font-size: 1.5vw;
 
-    margin-bottom: 12px;
+    margin-bottom: 2vw;
 }
 
 .introTag {
     display: inline-block;
     font-size: 1.5vw;
     font-family:'Times New Roman', Times, serif;
-    margin-bottom: 32px;
+    margin-bottom: 2vw;
 }
 
 .introTag:hover {
@@ -192,7 +193,7 @@ img {
 }
 
 .clubSection {
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 2px solid rgba(255, 255, 255, 0.1);
     background-color: rgba(0, 0, 0, .6);
 
     background-image: url("img/JS_hw2_club.png");
@@ -200,20 +201,39 @@ img {
     background-position: center, center;
     background-repeat: no-repeat;
     height: 45vw;
+
+    vertical-align: center;
+    
 }
 
 .clubSection h2 {
     margin-top: 3.5vw;
     margin-left: 3vw;
+    margin-bottom: 1vw;
 
     font-size: 4.5vw;
+}
+.clubContainer {
+    border: 3px solid wheat;
+    margin-left:3vw;
+    margin-right:3vw; 
+
+    /* text-align: center; */
+}
+
+.clubContent {
+    margin-top: 1.5vw;
+    margin-bottom: 3vw;
+    font-size: 2vw;
+    font-family: system-ui, sans-serif;
+    font-weight: bold;
 }
 
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5vw;
+    height: 10vw;
 }
 
 footer p {
