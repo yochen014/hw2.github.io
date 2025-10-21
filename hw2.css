@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+  --bg:#0f1115;
+  --text:#e7e9ee;
+  --brand:#7c9cff;
+  --accent:#72e5b2;
+  --card:#151922;
+}
+
+header, section, footer {
+    background-color: #d6ccc2;
+    border:0 #9d8189 solid;
+    /* padding: 20px 30px; */
+}
+
+header{
+    position: fixed;
+
+    top: 0;
+    height: 80px;
+    width: 100%;
+
+    background:var(--bg);
+    border-bottom:1px solid rgba(255,255,255,0.1);
+}
+
+header ul {
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
+}
+
+header li {
+    display: inline;
+    margin-right: 4vw;
+}
+
+header a {
+    color:var(--text);
+    font-size: 25px;
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+header a:hover {
+    color: var(--brand);
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+h1 {
+    position: absolute;
+    left:8vw;
+    top:0;
+    line-height: 80px;
+    font-family:'Times New Roman', Times, serif;
+
+    
+}
+
+h2 {
+    display: inline-block;
+    margin-bottom: 1vw;
+}
+
+.specialNameCol {
+    color: var(--brand);
+}
+
+.specialNameCol:hover {
+    text-decoration:double;
+    color: #298bfc;
+    font-size: 1.9vw;
+    border: 3px rgb(255, 255, 255) solid;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-in-out;
+}
+
+
+
+body {
+    font-family: system-ui, sans-serif;
+    color:var(--text);
+}
+
+img {  
+    height: 40%;
+    width: 35%;
+
+    margin-top: 15%;
+    margin-right: 14%;
+}
+
+
+
+
+
+.firstPage {
+    display: flex;
+
+    background-color: var(--bg);
+    height: 55vw;
+    
+    justify-content: center; /*水平方向對齊*/
+    align-items: flex-start; /*垂直方向對齊*/
+}
+
+.intro {
+    margin-top: 15%;  
+    margin-right: 
+}
+
+.intro h2 {
+    font-size: 2vw;
+}
+
+.introText {
+    display: block;
+    font-weight: bold;
+    font-size: 1.5vw;
+
+    margin-bottom: 1vw;
+}
+
+.introTag {
+    display: inline-block;
+    font-size: 1.5vw;
+    font-family:'Times New Roman', Times, serif;
+    margin-bottom: 3vw;
+}
+
+.introTag:hover {
+    text-decoration: underline;
+    color: #7c9cff;
+    text-decoration-color: #7c9cff;
+
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+
+    
+}
+
+.introMore { /*Tag下面的了解更多*/
+    display: inline-block;
+    border:0.2vw  #133477 solid;
+    padding: 1.2vw;
+    border-radius: 1vw;
+    background-color: #133477;
+
+    font-size: 1.5vw;
+    font-family: Times, serif;
+}
+
+.introMore:hover {
+    transform: scale(0.85); /*稍微優化了一點縮小不會卡卡*/
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    background-color: #1947a1;
+}
+
+
+.latest h2 {
+    display: block;
+}
+
+
+
+
+
+@media screen and (width: 768px){
+    header ul {
+        display: none;
+    }
+    header li {
+        display: none;
+    }
+    header a {
+        display: none;
+    }
+    
+}
