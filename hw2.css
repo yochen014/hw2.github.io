@@ -4,7 +4,7 @@
 }
 
 :root{
-  --bg:#0f1115;
+  --bg:rgb(15, 17, 21);
   --text:#e7e9ee;
   --brand:#7c9cff;
   --accent:#72e5b2;
@@ -21,6 +21,10 @@ header, section, footer {
     /* padding: 20px 30px; */
 }
 
+.dott {
+    background-color: var(--bg);
+}
+
 header{
     position: fixed;
 
@@ -28,7 +32,7 @@ header{
     height: 80px;
     width: 100%;
 
-    background:var(--bg);
+    background-color: rgba(15, 17, 21, 0.8);
     border-bottom:1px solid rgba(255,255,255,0.1);
 }
 
@@ -103,9 +107,6 @@ img {
     margin-top: 16vw;
     margin-right: 10vw;
 }
-
-
-
 
 
 .firstPage {
@@ -233,6 +234,29 @@ img {
     font-size: 2vw;
     font-family: system-ui, sans-serif;
     font-weight: bold;
+}
+
+.mathSection {
+    height: 30vw;
+    background-color: #7c9cff;
+}
+
+.contactSection {
+    height: 15vw;
+    background-color: var(--bg);
+}
+
+.contactSection h2 {
+    margin-top: 3.5vw;
+    margin-left: 3vw;
+    margin-bottom: 1vw;
+
+    font-size: 2.5vw;
+}
+
+.contactContent {
+    margin-left: 3vw;
+    margin-bottom: 1vw;
 }
 
 footer {
